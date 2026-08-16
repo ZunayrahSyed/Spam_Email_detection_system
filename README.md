@@ -14,10 +14,10 @@ Link: https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus
 
 ## Technologies Used
 
-Python
-NumPy
-Pandas
-Matplotlib
+-Python
+-NumPy
+-Pandas
+-Matplotlib
 
 ## How It Runs
 
