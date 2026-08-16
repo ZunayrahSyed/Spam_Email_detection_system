@@ -17,13 +17,13 @@ Link: https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus
 
 ## How it runs
 1. Download SpamAssassin Public Corpus from kaggle
-2. Add the path of folders 'easy_ham', 'hard_ham' , 'spam_2'
+2. Add the path of folders `easy_ham`, `hard_ham` , `spam_2`
 3. Make sure NumPy, Pandas, and Matplotlib are installed
 4. Run the code
 5. Input any email to get it labeled as spam or ham
 
 ## How it works
-This project uses Pandas to load and clean the emails from folders 'easy_ham', 'hard_ham' , 'spam_2' and then split them into training and test tests using 80/20 ratio. 
+This project uses Pandas to load and clean the emails from folders `easy_ham`, `hard_ham` , `spam_2` and then split them into training and test tests using 80/20 ratio. 
 
 It then clean and tokenizes each email. Afterwards, it builds a vocabulary of words whose occurances are in more than 15 emails. It then constructs bag of words using TF-IDF method. 
 
