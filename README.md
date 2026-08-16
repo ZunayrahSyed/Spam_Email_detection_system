@@ -14,10 +14,10 @@ Link: https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus
 
 ## Technologies Used
 
-Python
-NumPy
-Pandas
-Matplotlib
+*Python
+*NumPy
+*Pandas
+*Matplotlib
 
 ## How It Runs
 
@@ -35,7 +35,7 @@ It then cleans and tokenizes each email. Afterwards, it builds a vocabulary by s
 
 The model is then trained on the training data using a learning rate of 1 for 3000 epochs and evaluated using a Confusion Matrix, Accuracy, Precision, Recall, and F1.
 
-Precision and Recall are compared across different thresholds, and the best threshold is selected for the classification of emails after evaluation. Afterwards, it is ready to classify any email as spam or ham.
+Precision and Recall are compared across different thresholds, and the best threshold is selected for the classification of emails after evaluation. Afterwards, it is ready to classify any entered email as spam or ham.
 
 ## Loss Curve
 
