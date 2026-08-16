@@ -14,10 +14,10 @@ Link: https://www.kaggle.com/datasets/beatoa/spamassassin-public-corpus
 
 ## Technologies Used
 
-*Python
-*NumPy
-*Pandas
-*Matplotlib
+Python
+NumPy
+Pandas
+Matplotlib
 
 ## How It Runs
 
@@ -40,7 +40,7 @@ Precision and Recall are compared across different thresholds, and the best thre
 
 ## Loss Curve
 
-![Loss Cuve VS Epochs](Losscurve.png)
+![Loss Curve](losscurve.png)
 
 ## Precision vs Recall Curve
 
