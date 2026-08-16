@@ -33,7 +33,7 @@ This project uses Pandas to load and clean the emails from the folders `easy_ham
 
 It then cleans and tokenizes each email. Afterwards, it builds a vocabulary by selecting words that occur in at least 15 emails. It then converts the emails into TF-IDF feature vectors using term frequency and inverse document frequency.
 
-The model is then trained on the training data using a learning rate of 1 for 3000 epochs and evaluated using a Confusion Matrix, Accuracy, Precision, Recall, and F1.
+The model is then trained on the training data using a learning rate of 1 for 3000 epochs and evaluated using a Confusion Matrix, Accuracy, Precision, Recall, and F1 Score.
 
 Precision and Recall are compared across different thresholds, and the best threshold is selected for the classification of emails after evaluation. Afterwards, it is ready to classify any entered email as spam or ham.
 
