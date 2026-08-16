@@ -37,17 +37,14 @@ The model is then trained on the training data using a learning rate of 1 for 30
 
 Precision and Recall are compared across different thresholds, and the best threshold is selected for the classification of emails after evaluation. Afterwards, it is ready to classify any entered email as spam or ham.
 
+
 ## Loss Curve
 
-### Training Loss Curve
-
-![Training Loss Curve](LossGraph.png)
+![Loss Cuve VS Epochs](Losscurve.png)
 
 ## Precision vs Recall Curve
 
-### Precision vs Recall Curve for Different Thresholds
-
-![Precision vs Recall Curve](PrecisionRecall.png)
+![Precision vs Recall Curve for different thresholds](PvsRcurve.png)
 
 ## What I Learned
 
