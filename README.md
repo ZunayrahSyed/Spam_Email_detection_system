@@ -33,10 +33,10 @@ The Precision and Recall are compared along different thresholds and the best th
 AFterwards, it is ready to classify any email as spam or ham.
 
 ## Loss Curve
-![Training Loss Curve](loss curve.png)
+![Training Loss Curve]('loss curve.png')
 
 ## Precision vs Recall Curve
-![Precision VS Recall Curve for different threshold](Precision & recall vs Threshold.png)
+![Precision VS Recall Curve for different threshold]('Precision & recall vs Threshold.png')
 
 ## What I learned
 I learned to extract, clean, and prepare data using Pandas. Moreover, I learned to perform fearure engineering, and TF-IDF method.
